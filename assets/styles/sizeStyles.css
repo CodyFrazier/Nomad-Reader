@@ -1,0 +1,27 @@
+.widthundred{
+    width: 100%;
+}
+.heighthundred{
+    height: 100%;
+}
+
+.height30px{
+    height: 30px;
+}
+.width30px{
+    width: 30px;
+}
+
+.height100px{
+    height: 100px;
+}
+.width100px{
+    width: 100px;
+}
+
+.height100vh{
+    height: 100vh;
+}
+.width100vw{
+    width: 100vw;
+}

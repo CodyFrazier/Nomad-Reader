@@ -1,0 +1,25 @@
+.box5px{
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+.pad0{
+    padding: 0;
+}
+.margin0{
+    margin: 0;
+}
+
+.padQuarter{
+    padding: .25rem;
+}
+.padHalf{
+    padding: .5rem;
+}
+
+.marginQuarter{
+    margin: .25rem;
+}
+.marginHalf{
+    margin: .5rem;
+}

@@ -1,0 +1,20 @@
+.grow1{
+    flex-grow: 100%;
+}
+.columnNW{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.rowNW{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.justifySA{
+    justify-content: space-around;
+}
+
+.alignCenter{
+    align-items: center;
+}

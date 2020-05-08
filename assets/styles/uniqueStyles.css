@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    
+}
+
+#container{
+    display: flex;
+    flex-flow: nowrap column;
+    margin: 0;
+    background-image: url('../img/futureCity.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    z-index: 0;
+}

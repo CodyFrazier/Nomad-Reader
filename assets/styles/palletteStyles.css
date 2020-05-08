@@ -1,0 +1,11 @@
+.frosted{
+    backdrop-filter: blur(3px);
+}
+
+.bgAlpha50AO{
+    background-color: rgba(234, 112, 0, 50%);
+}
+
+.bgAlpha30B{
+    background-color: rgba(0, 0, 0, 30%);
+}
