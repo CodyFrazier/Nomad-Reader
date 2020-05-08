@@ -11,12 +11,15 @@
 .width30px{
     width: 30px;
 }
-
 .height100px{
     height: 100px;
 }
 .width100px{
     width: 100px;
+}
+
+.height60vh{
+    height: 65vh;
 }
 
 .height100vh{

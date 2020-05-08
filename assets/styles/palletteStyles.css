@@ -2,10 +2,26 @@
     backdrop-filter: blur(3px);
 }
 
+.colorAO{
+    color: #ea7200;
+}
+
+.borderAO{
+    border: 1px solid #ea7200;
+}
+
 .bgAlpha50AO{
     background-color: rgba(234, 112, 0, 50%);
 }
 
 .bgAlpha30B{
     background-color: rgba(0, 0, 0, 30%);
+}
+
+.bgAlpha60B{
+    background-color: rgba(0, 0, 0, 60%);
+}
+
+.bgAlpha50W{
+    background-color: rgba(170, 170, 170, 50%);
 }

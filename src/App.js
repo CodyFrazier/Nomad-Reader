@@ -1,11 +1,23 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import NavBar from './NavBar.js';
+import Overlay from './Overlay.js';
+//import {  } from './methods.js';
 
 const App = () => {
+    const [ overlay, setOverlay ] = useState({ component: null, active: false });
+
+    const toggleOverlay = (newComponent) => {
+        setOverlay(
+            overlay.component === newComponent ? { component: overlay.component, active: !overlay.active } 
+            : { component: newComponent, active: true }
+        )
+    };
+
     return (
         <div id = 'container' >
             <main className = ' frosted bgAlpha30B grow1 columnNW height100vh' >
-               <NavBar /> 
+                <NavBar overlay = { overlay } toggleOverlay = { toggleOverlay } />
+                { overlay.active && <Overlay overlay = { overlay } toggleOverlay = { toggleOverlay } /> }
             </main>
             
         </div>

@@ -3,6 +3,14 @@ body{
     
 }
 
+input:focus{
+    outline: none;
+}
+
+.selectedNavItem{
+	background-color: rgba(30, 0, 60, 70%);
+}
+
 #container{
     display: flex;
     flex-flow: nowrap column;

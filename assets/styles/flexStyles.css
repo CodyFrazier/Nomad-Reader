@@ -11,6 +11,10 @@
     flex-flow: row nowrap;
 }
 
+.justifyEnd{
+    justify-content: flex-end;
+}
+
 .justifySA{
     justify-content: space-around;
 }

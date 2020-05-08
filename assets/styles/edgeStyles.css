@@ -3,11 +3,32 @@
     border-radius: 5px;
 }
 
+.border5{
+    border-radius: 5px;
+}
+
+.topLeft5{
+    border-top-left-radius: 5px;
+}
+.bottomLeft5{
+    border-bottom-left-radius: 5px;
+}
+
+.topRight5{
+    border-top-right-radius: 5px;
+}
+.bottomRight5{
+    border-bottom-right-radius: 5px;
+}
+
 .pad0{
     padding: 0;
 }
 .margin0{
     margin: 0;
+}
+.pad1{
+    padding: 1rem;
 }
 
 .padQuarter{
@@ -17,9 +38,30 @@
     padding: .5rem;
 }
 
+.topPadQuarter{
+    padding-top: .25rem;
+}
+.topPadHalf{
+    padding-top: .5rem;
+}
+
 .marginQuarter{
     margin: .25rem;
 }
 .marginHalf{
     margin: .5rem;
+}
+
+.topMarginQuarter{
+    margin-top: .25rem;
+}
+.topMarginHalf{
+    margin-top: .5rem;
+}
+
+.rightMargin1{
+    margin-right: 1rem;
+}
+.leftMargin1{
+    margin-left: 1rem;
 }
