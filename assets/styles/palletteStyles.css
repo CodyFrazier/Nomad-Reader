@@ -18,6 +18,14 @@
     border: 2px solid #fff; 
 }
 
+.bg2{
+    background-color: #222;
+}
+
+.bgAO{
+    background-color: #ea7200;
+}
+
 .bgAlpha50AO{
     background-color: rgba(234, 112, 0, 50%);
 }
@@ -36,4 +44,8 @@
 
 .bgAlpha50W{
     background-color: rgba(170, 170, 170, 50%);
+}
+
+.selectedNavItem{
+	background-color: rgba(30, 0, 60, 70%);
 }

@@ -14,13 +14,21 @@ import SearchOverlay from './SearchOverlay.js';
 
 const NavBar = ({ overlay, toggleOverlay }) => {
 
+    const submitFavorite = () => {
+        console.log('Eventually this will alter the database on a column that controls the favorites list');
+    };
+
+    const submitBookMark = () => {
+        console.log('Eventually this will alter the database so that this user can load the story back where it was when they bookmarked it');
+    };
+
     return (
         <div>
             <nav id = 'NavBar' className = 'rowNW bgAlpha50AO'>
-                <img id = 'logo' className = 'width100px padQuarter' src = 'assets/img/Icons/Logo.png' />
+                <img id = 'logo' className = 'width100px padQuarter' src = 'assets/img/Icons/Logo.png' onClick = { () => console.log('This will route to Landing When Clicked')} />
                 <div id = 'iconBar' className = 'widthundred rowNW justifySA alignCenter padQuarter'>
-                    <img id = 'bookmark' className = { `width30px height30px box5px padQuarter ${ overlay.component === 'Bookmark' && overlay.active ? 'selectedNavItem' : '' }` } src = 'assets/img/Icons/Bookmark.png' onClick = { () => { toggleOverlay('Bookmark') } }/>
-                    <img id = 'favorite' className = { `width30px height30px box5px padQuarter ${ overlay.component === 'Favorite' && overlay.active ? 'selectedNavItem' : '' }` } src = 'assets/img/Icons/Heart.png' onClick = { () => { toggleOverlay('Favorite') } }/>
+                    <img id = 'bookmark' className = { `width30px height30px box5px padQuarter` } src = 'assets/img/Icons/Bookmark.png' onClick = { () => submitBookMark() }/>
+                    <img id = 'favorite' className = { `width30px height30px box5px padQuarter` } src = 'assets/img/Icons/Heart.png' onClick = { () => submitFavorite() }/>
                     <img id = 'settings' className = { `width30px height30px box5px padQuarter ${ overlay.component === 'Settings' && overlay.active ? 'selectedNavItem' : '' }` } src = 'assets/img/Icons/Settings.png' onClick = { () => { toggleOverlay('Settings') } }/>
                     <img id = 'search' className = { `width30px height30px box5px padQuarter ${ overlay.component === 'Search' && overlay.active ? 'selectedNavItem' : '' }` } src = 'assets/img/Icons/Search.png' onClick = { () => { toggleOverlay('Search') } }/>
                 </div>
