@@ -8,11 +8,19 @@
     border-radius: 5px;
 }
 
+.circle25px{
+    border: 2px solid #222;
+    border-radius: 25px;
+}
+
 .border5{
     border-radius: 5px;
 }
 .border10{
     border-radius: 10px;
+}
+.border25{
+    border-radius: 25px;
 }
 
 .topLeft5{
@@ -53,6 +61,19 @@
     padding-top: .5rem;
 }
 
+.rightPadHalf{
+    padding-right: .5rem;
+}
+.leftPadHalf{
+    padding-left: .5rem;
+}
+.rightPad1{
+    padding-right: 1rem;
+}
+.leftPad1{
+    padding-left: 1rem;
+}
+
 .marginQuarter{
     margin: .25rem;
 }
@@ -65,6 +86,13 @@
 }
 .topMarginHalf{
     margin-top: .5rem;
+}
+
+.rightMarginQuarter{
+    margin-right: .25rem;
+}
+.leftMarginQuarter{
+    margin-left: .25rem;
 }
 
 .rightMargin1{

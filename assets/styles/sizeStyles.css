@@ -5,6 +5,10 @@
     height: 100%;
 }
 
+.width15px{
+    width: 15px;
+}
+
 .height30px{
     height: 30px;
 }
@@ -20,6 +24,9 @@
 
 .height60vh{
     height: 65vh;
+}
+.width60vw{
+    width: 60vw;
 }
 
 .height100vh{

@@ -21,7 +21,7 @@ const App = () => {
         <div id = 'container' className = 'z0 noto pt14'>
             <main className = ' frosted bgAlpha30B grow1 columnNW height100vh' >
                 <NavBar overlay = { overlay } toggleOverlay = { toggleOverlay } />
-                <Landing />
+                { window.location.hash === '' && <Landing /> }
             </main>
         </div>
     )
