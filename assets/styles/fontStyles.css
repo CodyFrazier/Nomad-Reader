@@ -1,0 +1,50 @@
+.noto{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.indentHalf{
+    text-indent: .5rem;
+}
+.indent1{
+    text-indent: 1rem;
+}
+
+.pt10{
+    font-size: 10px;
+}
+
+.pt12{
+    font-size: 12px;
+}
+
+.pt14{
+    font-size: 14px;
+}
+
+.pt16{
+    font-size: 16px;
+}
+
+.pt18{
+    font-size: 18px;
+}
+
+.pt20{
+    font-size: 20px;
+}
+
+.pt24{
+    font-size: 24px;
+}
+
+.pt36{
+    font-size: 36px;
+}
+
+.pt48{
+    font-size: 48px;
+}
+
+.pt72{
+    font-size: 72px;
+}

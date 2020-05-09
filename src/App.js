@@ -1,6 +1,10 @@
 import React, { useEffect, useState } from 'react';
+
+//Components
 import NavBar from './NavBar.js';
-import Overlay from './Overlay.js';
+import Landing from './Landing.js';
+
+//Misc.
 //import {  } from './methods.js';
 
 const App = () => {
@@ -14,12 +18,11 @@ const App = () => {
     };
 
     return (
-        <div id = 'container' >
+        <div id = 'container' className = 'z0 noto pt14'>
             <main className = ' frosted bgAlpha30B grow1 columnNW height100vh' >
                 <NavBar overlay = { overlay } toggleOverlay = { toggleOverlay } />
-                { overlay.active && <Overlay overlay = { overlay } toggleOverlay = { toggleOverlay } /> }
+                <Landing />
             </main>
-            
         </div>
     )
 }

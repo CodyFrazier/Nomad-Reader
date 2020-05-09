@@ -1,0 +1,8 @@
+.z0{
+    position: fixed;
+    z-index: 0;
+}
+.z1{
+    position: fixed;
+    z-index: 1;
+}

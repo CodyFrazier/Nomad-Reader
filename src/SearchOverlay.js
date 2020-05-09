@@ -2,7 +2,7 @@ import React from 'react';
 
 const SearchOverlay = () => {
     return (
-        <div>
+        <div className = 'z1'>
             Search Bar
         </div>
     )
