@@ -11,3 +11,4 @@ Technologies :
 - Babel
 - Webpack
 - Express
+- NodeJS
