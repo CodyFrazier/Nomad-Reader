@@ -2,7 +2,7 @@ import React from 'react';
 
 const SettingsOverlay = () => {
     return (
-        <div>
+        <div className = 'z1'>
             Settings
         </div>
     )
