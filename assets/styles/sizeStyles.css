@@ -1,3 +1,10 @@
+.scrollDown{
+    overflow-y: scroll;
+}
+.scrollSide{
+    overflow-x: scroll;
+}
+
 .widthundred{
     width: 100%;
 }

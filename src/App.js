@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 //Components
 import NavBar from './NavBar.js';
-import Landing from './Landing.js';
+import Landing from './Landing/Landing.js';
 
 //Misc.
 //import {  } from './methods.js';
