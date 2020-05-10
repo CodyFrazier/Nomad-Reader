@@ -7,6 +7,15 @@ input:focus{
     outline: none;
 }
 
+image::selection{
+    background-color: transparent;
+    color: #000;
+}
+
+.disabledLink{
+    pointer-events: none;
+}
+
 #container{
     display: flex;
     flex-flow: nowrap column;

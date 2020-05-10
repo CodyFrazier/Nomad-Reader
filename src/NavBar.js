@@ -7,6 +7,7 @@
 */
 
 import React from 'react';
+import { Route, Link } from 'react-router-dom';
 
 //Components
 import SettingsOverlay from './SettingsOverlay.js';
@@ -27,7 +28,7 @@ const NavBar = ({ overlay, toggleOverlay }) => {
     return (
         <div>
             <nav id = 'NavBar' className = 'rowNW bgAlpha50AO'>
-                <img id = 'logo' className = 'width100px padQuarter' src = 'assets/img/Icons/Logo.png' onClick = { () => console.log('This will route to Landing When Clicked')} />
+                <Link to = '/' className = { `${ overlay.active ? 'disabledLink' : '' }` }><img id = 'logo' className = 'width100px padQuarter' src = 'assets/img/Icons/Logo.png' /></Link>
                 <div id = 'iconBar' className = 'widthundred rowNW justifySA alignCenter padQuarter'>
                     <img id = 'bookmark' className = { `${ navImage }` } src = 'assets/img/Icons/Bookmark.png' onClick = { () => submitBookMark() }/>
                     <img id = 'favorite' className = { `${ navImage }` } src = 'assets/img/Icons/Heart.png' onClick = { () => submitFavorite() }/>
