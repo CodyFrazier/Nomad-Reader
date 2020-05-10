@@ -19,6 +19,10 @@
     justify-content: space-around;
 }
 
+.justifyCenter{
+    justify-content: center;
+}
+
 .alignCenter{
     align-items: center;
 }

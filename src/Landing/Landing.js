@@ -1,4 +1,5 @@
 import React from 'react';
+import { Route, Link } from 'react-router-dom';
 import RandomBooks from './RandomBooks.js';
 import RecentReads from './RecentReads.js';
 import PopularBooks from './PopularBooks.js';
@@ -13,6 +14,7 @@ const Landing = () => {
                 <div className = 'indent1'>This is where site news will be displayed. Look at how other sites display
                     their news to get a feel for how best to do this and decide how much info you want to show.
                 </div>
+                <Link to = '/news' className = 'rowNW justifyEnd padQuarter'>Read More...</Link>
             </div>
             <div className = { infoBox }>
                 <div>A box with popular stories</div>
